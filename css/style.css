@@ -1,9 +1,6 @@
 /*
-Paleta de cores base:
-#fff8b0 - fundo;
-#daa520 - títulos;
-#d8b45a - subtítulos;
-#e6c982 - outros itens;
+Gradiente
+linear-gradient(60deg, #ff0000, #ffff00, #ff0000, #ffff00, #ff0000);
 */
 
 /*
@@ -50,7 +47,10 @@ body {
     left: 0;
     top: 0;
     position: relative;
-    background-color: #fff8b0;
+    background: url("../imgs/header-fundo.jpeg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .cp1 {
@@ -69,7 +69,8 @@ body {
 }
 
 .cabecalho-imagem {
-    height: 72px;
+    height: 65px;
+    margin-right: 55%;
 }
   
 .cabecalho-menu {
@@ -81,21 +82,29 @@ body {
     font-family: 'El Messiri', sans-serif;
     color: #e6c982;
     font-weight: 400;
-    font-size: 18px
+    font-size: 18px;
+    text-shadow: 0 0 3px #000;
 }
 
 .titulo {
     font-family: 'Parisienne', cursive;
     font-weight: 400;
-    font-size: 64px;
-    color: #daa520;
+    font-size: 80px;
+    font-weight: 50px;
+    background-image: url(../imgs/ouro-texture.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 5px #ffd700;
 }
 
 .subtitulo {
     font-family: 'El Messiri', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #d8b45a;
+    color: #a50000;
 }
 
 .main {
