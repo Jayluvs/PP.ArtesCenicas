@@ -58,7 +58,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
+    padding: 20px;
 }
 
 .cp2 {
@@ -70,7 +70,7 @@ body {
 
 .cabecalho-imagem {
     height: 65px;
-    margin-right: 55%;
+    margin-right: 50%;
 }
   
 .cabecalho-menu {
@@ -80,10 +80,12 @@ body {
   
 .cabecalho-menu-item {
     font-family: 'El Messiri', sans-serif;
-    color: #e6c982;
+    color: #f3d895;
+    text-shadow: 0 0 2px #000;
     font-weight: 400;
     font-size: 18px;
-    text-shadow: 0 0 3px #000;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-clip: content-box;
 }
 
 .titulo {
@@ -104,7 +106,7 @@ body {
     font-family: 'El Messiri', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #a50000;
+    color: #f3d500;
 }
 
 .main {
@@ -159,7 +161,7 @@ body {
     font-family: 'Unna', serif;
     font-weight: 400;
     font-size: 50px;
-    color: #daa520;
+    color: #ca3433;
     text-align: center;
 }
 
@@ -193,7 +195,7 @@ body {
     font-family: 'El Messiri', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #d8b45a;
+    color: #c54e4e;
     text-align: center;
 }
 
