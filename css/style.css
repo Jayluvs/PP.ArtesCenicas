@@ -100,7 +100,7 @@ body {
     font-weight: 400;
     font-size: 80px;
     font-weight: 50px;
-    background-image: url(../imgs/ouro-texture.jpg);
+    background-image: url(../imgs/gold-texture.jpg);
     background-repeat: repeat;
     background-position: center center;
     background-clip: text;
@@ -126,6 +126,27 @@ body {
     background-color: #fff;
     margin-bottom: 48px;
     border-top: 6px solid rgb(158, 9, 9, 0.8);
+}
+
+.perfil {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    position: relative;
+
+}
+
+.p-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.perfil-img {
+    height: 300px;
 }
 
 .sobre-o-cruso {
@@ -199,6 +220,10 @@ body {
     top: 0;
     position: relative;
 
+}
+
+.profissao-img {
+    height: 300px;
 }
 
 .galeria {
